@@ -122,7 +122,7 @@ function playGame(playerMove) {
     } else if (computerMove === 'Paper') {
       result = 'Tie.';
     } else if (computerMove === 'Scissors') {
-      result = 'You Lose';
+      result = 'You Lose.';
     }
 
   } else if (playerMove === 'Rock') {
