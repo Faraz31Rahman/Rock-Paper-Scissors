@@ -118,11 +118,11 @@ function playGame(playerMove) {
 
   } else if (playerMove === 'Paper') {
       if (computerMove === 'Rock') {
-      result = 'Tie.';
-    } else if (computerMove === 'Paper') {
-      result = 'You Lose.';
-    } else if (computerMove === 'Scissors') {
       result = 'You Win.';
+    } else if (computerMove === 'Paper') {
+      result = 'Tie.';
+    } else if (computerMove === 'Scissors') {
+      result = 'You Lose';
     }
 
   } else if (playerMove === 'Rock') {
